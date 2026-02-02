@@ -1,4 +1,21 @@
 package com.herokuapp.pages;
 
-public class HomePage {
+
+import com.herokuapp.core.BasePage;
+import com.herokuapp.pages.availableExamples.LoginPage;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class HomePage extends BasePage {
+    public HomePage(WebDriver driver) {
+        super(driver);
+    }
+    @FindBy(css = "a[href='/login']")
+    WebElement login;
+
+    public LoginPage getFormAuthenfication() {
+        click(login);
+        return new LoginPage(driver);
+    }
 }
