@@ -35,7 +35,7 @@ click(loginButton);
 //@FindBy(css = "div.flash.success")
 WebElement success;
 
-    public LoginPage verifyUserNameOnPageText(String text) {
+    public LoginPage verifyOnPageText(String text) {
         Assertions.assertTrue(success.getText().contains(text));
         return this;
     }

@@ -18,7 +18,7 @@ public class FormAuthTest extends TestBase {
     public void loginPositiveTest() {
         new LoginPage(driver).enterUserData("tomsmith", "SuperSecretPassword!")
                 .clickOnLoginButton()
-                .verifyUserNameOnPageText("Secure Area");
+                .verifyOnPageText("Secure Area");
 
     }
 
