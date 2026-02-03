@@ -2,6 +2,7 @@ package com.herokuapp.pages;
 
 
 import com.herokuapp.core.BasePage;
+import com.herokuapp.pages.availableExamples.AlertsPage;
 import com.herokuapp.pages.availableExamples.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,11 +12,20 @@ public class HomePage extends BasePage {
     public HomePage(WebDriver driver) {
         super(driver);
     }
+
     @FindBy(css = "a[href='/login']")
     WebElement login;
 
     public LoginPage getFormAuthenfication() {
         click(login);
         return new LoginPage(driver);
+    }
+
+    @FindBy(css = "a[href='/javascript_alerts']")
+    WebElement script_alerts;
+
+    public AlertsPage getJavaScriptAlerts() {
+        click(script_alerts);
+        return new AlertsPage(driver);
     }
 }

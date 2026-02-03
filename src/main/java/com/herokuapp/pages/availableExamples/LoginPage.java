@@ -36,7 +36,7 @@ click(loginButton);
 WebElement success;
 
     public LoginPage verifyOnPageText(String text) {
-        Assertions.assertTrue(success.getText().contains(text));
+        Assertions.assertTrue(isContainsText(text, success));
         return this;
     }
 }
