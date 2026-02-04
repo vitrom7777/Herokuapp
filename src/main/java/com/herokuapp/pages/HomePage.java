@@ -3,6 +3,8 @@ package com.herokuapp.pages;
 
 import com.herokuapp.core.BasePage;
 import com.herokuapp.pages.availableExamples.AlertsPage;
+import com.herokuapp.pages.availableExamples.DropdownPage;
+import com.herokuapp.pages.availableExamples.FramesPage;
 import com.herokuapp.pages.availableExamples.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -28,4 +30,22 @@ public class HomePage extends BasePage {
         click(script_alerts);
         return new AlertsPage(driver);
     }
+
+    @FindBy(css = "a[href='/dropdown']")
+    WebElement dropdown;
+
+    public DropdownPage getDropdown() {
+        click(dropdown);
+        return new DropdownPage(driver);
+    }
+    @FindBy(css = "a[href='/frames']")
+    WebElement nestedFrames;
+
+
+
+    public FramesPage getFrames() {
+        click(nestedFrames);
+        return new FramesPage(driver);
+    }
+
 }
