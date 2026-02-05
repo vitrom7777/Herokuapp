@@ -14,7 +14,6 @@ public class DropdownTests extends TestBase {
 
     @BeforeEach
     public void precondition() {
-        //   new HomePage(driver).getJavaScriptAlerts();
         dropdownPage = new DropdownPage(driver);
         new HomePage(driver).getDropdown();
     }

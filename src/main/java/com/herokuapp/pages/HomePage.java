@@ -2,10 +2,7 @@ package com.herokuapp.pages;
 
 
 import com.herokuapp.core.BasePage;
-import com.herokuapp.pages.availableExamples.AlertsPage;
-import com.herokuapp.pages.availableExamples.DropdownPage;
-import com.herokuapp.pages.availableExamples.FramesPage;
-import com.herokuapp.pages.availableExamples.LoginPage;
+import com.herokuapp.pages.availableExamples.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -38,9 +35,9 @@ public class HomePage extends BasePage {
         click(dropdown);
         return new DropdownPage(driver);
     }
+
     @FindBy(css = "a[href='/frames']")
     WebElement nestedFrames;
-
 
 
     public FramesPage getFrames() {
@@ -48,4 +45,20 @@ public class HomePage extends BasePage {
         return new FramesPage(driver);
     }
 
+    @FindBy(css = "a[href='/horizontal_slider']")
+    WebElement slider;
+
+    public SliderPage getHorizontalSlider() {
+        click(slider);
+        return new SliderPage(driver);
+    }
+
+
+    @FindBy(css = "a[href='/drag_and_drop']")
+    WebElement dragAndDrop;
+
+    public DragAndDropPage getDragAndDropPage() {
+        click(dragAndDrop);
+        return new DragAndDropPage(driver);
+    }
 }

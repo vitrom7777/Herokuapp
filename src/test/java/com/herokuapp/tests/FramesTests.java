@@ -19,8 +19,6 @@ public class FramesTests extends TestBase {
         framesPage = new FramesPage(driver);
 
     }
-@FindBy(xpath = "//frameset")
-    WebElement frameset;
 
     @Test
     public void framesByTests(){

@@ -9,35 +9,50 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.List;
+
 public class FramesPage extends BasePage {
     private static final Logger log = LoggerFactory.getLogger(FramesPage.class);
 
     public FramesPage(WebDriver driver) {
         super(driver);
     }
+//    @FindBy(css = "frameset")
+//    List<WebElement> frameset;
+        @FindBy(css = "frameset-middle")
+    List<WebElement> frameset;
 
-
-//    @FindBy(xpath = "//frameset")
+//    @FindBy(name = "frameset-middle")
 //    WebElement frameset;
 
     @FindBy(name = "frame-top")
     WebElement frameTop;
-    // @FindBy(name = "frame-left")
-       @FindBy(css = "[name='frame-left']")
+
+    @FindBy(name = "frame-left")
+     //  @FindBy(css = "[name='frame-left']")
     WebElement frameLeft;
 
     public FramesPage switchToFrameLeft() {
-       // driver.switchTo().defaultContent();
-     log.info(String.valueOf(frameTop.getSize())); //
-       driver.switchTo().frame(frameTop);
-      //  driver.switchTo().defaultContent();
-//        getWait(5).until(ExpectedConditions
-//                .frameToBeAvailableAndSwitchToIt("frame-top"));
-        driver.switchTo().frame("frame-left");
-//        getWait(10).until(ExpectedConditions
-//                .frameToBeAvailableAndSwitchToIt("frame-left"));
+       // System.out.println(frameset.size());
+        driver.switchTo().frame(frameTop);
+        driver.switchTo().defaultContent();
+        driver.switchTo().frame(frameLeft);
         return this;
     }
+
+
+//    public FramesPage switchToFrameLeft() {
+//       // driver.switchTo().defaultContent();
+//     log.info(String.valueOf(frameTop.getSize())); //
+//       driver.switchTo().frame(frameTop);
+//      //  driver.switchTo().defaultContent();
+////        getWait(5).until(ExpectedConditions
+////                .frameToBeAvailableAndSwitchToIt("frame-top"));
+//        driver.switchTo().frame("frame-left");
+////        getWait(10).until(ExpectedConditions
+////                .frameToBeAvailableAndSwitchToIt("frame-left"));
+//        return this;
+//    }
 
 //    @FindBy(tagName = "body")
 //    WebElement body;
@@ -57,6 +72,7 @@ WebElement example;
         Assertions.assertTrue(isContainsText(text,example));
         return this;
     }
+
     @FindBy(css = "a[href='/nested_frames']")
     WebElement nestedFrames;
 
