@@ -1,0 +1,7 @@
+844  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+862  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+871  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+880  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+4518 [main] ERROR com.herokuapp.utils.MyTestWatcher -- The method !!Optional[public void com.herokuapp.tests.SliderTests.sliderTest()]!! is FAILED
+4518 [main] ERROR com.herokuapp.utils.MyTestWatcher -- expected: <5> but was: <null>
+4518 [main] INFO  com.herokuapp.utils.MyTestWatcher --  ================================================== 

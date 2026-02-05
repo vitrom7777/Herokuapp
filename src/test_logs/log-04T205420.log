@@ -1,0 +1,11 @@
+945  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+964  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+976  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+984  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+4709 [main] INFO  c.h.p.availableExamples.FramesPage -- [[ChromeDriver: chrome on windows (a186d518029c6795968397bd02945308)] -> name: frame-top]
+44769 [main] ERROR com.herokuapp.utils.MyTestWatcher -- The method !!Optional[public void com.herokuapp.tests.FramesTests.framesByTests()]!! is FAILED
+44772 [main] ERROR com.herokuapp.utils.MyTestWatcher -- No frame element found by name or id frame-left
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: driver.version: unknown
+44773 [main] INFO  com.herokuapp.utils.MyTestWatcher --  ================================================== 
