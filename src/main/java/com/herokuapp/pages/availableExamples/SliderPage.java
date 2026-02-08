@@ -34,6 +34,6 @@ public class SliderPage extends BasePage {
 
         // If: getDomAttribute(name) --> Test: expected: <5> but was: <null>
         //Assertions.assertEquals(number,range.getDomAttribute("5"));
-        return this;
+                return this;
     }
 }

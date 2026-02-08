@@ -28,7 +28,7 @@ actions.dragAndDrop(dragMeA,dropHereB).perform();
     }
 
 
-// Move
+// v. 2  Move
     public DragAndDropPage dragMeBy() {
         // get coordinates dragMy (from)
         int xOffset1 = dragMeA.getLocation().getX();

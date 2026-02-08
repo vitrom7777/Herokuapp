@@ -1,0 +1,16 @@
+1205 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+1226 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+1239 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+1247 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+30675 [main] ERROR com.herokuapp.utils.MyTestWatcher -- The method !!Optional[public void com.herokuapp.tests.ContextMenuTest.rightClickTestOnBox()]!! is FAILED
+30675 [main] ERROR com.herokuapp.utils.MyTestWatcher -- rightClickTestOnBox()
+30675 [main] ERROR com.herokuapp.utils.MyTestWatcher -- no such element: Unable to locate element: {"method":"css selector","selector":".heading h1"}
+  (Session info: chrome=144.0.7559.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3df87efd16a0b425620cd91f66b77f55, findElement {value=.heading h1, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\vitro\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62251}, goog:processID: 26460, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62251/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3df87efd16a0b425620cd91f66b77f55
+30675 [main] INFO  com.herokuapp.utils.MyTestWatcher --  ================================================== 

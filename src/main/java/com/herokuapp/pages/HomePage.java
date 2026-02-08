@@ -61,4 +61,12 @@ public class HomePage extends BasePage {
         click(dragAndDrop);
         return new DragAndDropPage(driver);
     }
+
+    @FindBy(css = "a[href='/context_menu']")
+    WebElement contextMenu;
+
+    public ContextMenuPage getContextMenu() {
+        click(contextMenu);
+        return new ContextMenuPage(driver);
+    }
 }
