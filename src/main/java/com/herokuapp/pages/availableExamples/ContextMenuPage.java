@@ -35,7 +35,8 @@ public class ContextMenuPage extends BasePage {
     public ContextMenuPage clickDownAndEnter() {
         // actions.sendKeys(Keys.ENTER).perform();
         //actions.sendKeys(Keys.ENTER).pause(Duration.ofSeconds(6)).perform();
-        actions.sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(1000)).sendKeys(Keys.ENTER).perform();
+
+       //  actions.sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(1000)).sendKeys(Keys.ENTER).perform();
         driver.navigate().back();
         return this;
     }
