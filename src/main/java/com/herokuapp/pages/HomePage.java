@@ -69,10 +69,21 @@ public class HomePage extends BasePage {
         click(contextMenu);
         return new ContextMenuPage(driver);
     }
+
     @FindBy(css = "a[href='/upload']")
     WebElement uploadMenu;
+
     public UploadPage getUpload() {
         click(uploadMenu);
         return new UploadPage(driver);
+    }
+
+    @FindBy(css = "a[href='/broken_images']")
+    WebElement brokenImages;
+
+    public BrokenImagesPage getBrokenImagesPage() {
+
+        click(brokenImages);
+        return new BrokenImagesPage(driver);
     }
 }
