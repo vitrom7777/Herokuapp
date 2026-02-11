@@ -1,0 +1,49 @@
+921  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+936  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+3841 [main] INFO  com.herokuapp.utils.MyListener -- __________________________________________________________
+3841 [main] INFO  com.herokuapp.utils.MyListener -- Step #1 | 🌐 We opened the site https://the-internet.herokuapp.com/
+4491 [main] INFO  com.herokuapp.utils.MyListener -- Step #1 | 🖱️ We clicked on: [[ChromeDriver: chrome on windows (dd5128e27ad5fe90422a2ff64098d60b)] -> css selector: a[href='/login']]
+4491 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+4627 [main] INFO  com.herokuapp.utils.MyListener -- Step #2 | 🖱️ We clicked on: [[ChromeDriver: chrome on windows (dd5128e27ad5fe90422a2ff64098d60b)] -> id: username]
+4630 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+4701 [main] INFO  com.herokuapp.utils.MyListener -- Step #3 | 🖱️ We clicked on: [[ChromeDriver: chrome on windows (dd5128e27ad5fe90422a2ff64098d60b)] -> id: username]
+4701 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+4753 [main] INFO  com.herokuapp.utils.MyListener -- Step #4 | ⌨️ We enter : [[tomsmith]] to element [[ChromeDriver: chrome on windows (dd5128e27ad5fe90422a2ff64098d60b)] -> id: username]
+4753 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+4885 [main] INFO  com.herokuapp.utils.MyListener -- Step #5 | 🖱️ We clicked on: [[ChromeDriver: chrome on windows (dd5128e27ad5fe90422a2ff64098d60b)] -> id: password]
+4885 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+4953 [main] INFO  com.herokuapp.utils.MyListener -- Step #6 | 🖱️ We clicked on: [[ChromeDriver: chrome on windows (dd5128e27ad5fe90422a2ff64098d60b)] -> id: password]
+4953 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+5008 [main] INFO  com.herokuapp.utils.MyListener -- Step #7 | ⌨️ We enter : [[SuperSecretPassword!]] to element [[ChromeDriver: chrome on windows (dd5128e27ad5fe90422a2ff64098d60b)] -> id: password]
+5008 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+5118 [main] INFO  com.herokuapp.utils.MyListener -- Step #8 | 🖱️ We clicked on: [[ChromeDriver: chrome on windows (dd5128e27ad5fe90422a2ff64098d60b)] -> css selector: button[type='submit']
+5118 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+5423 [main] ERROR com.herokuapp.utils.MyListener -- The test has a problem !!!
+5423 [main] ERROR com.herokuapp.utils.MyListener -- =========================================
+5423 [main] ERROR com.herokuapp.utils.MyListener -- Method --> getText
+5423 [main] ERROR com.herokuapp.utils.MyListener -- =========================================
+5425 [main] ERROR com.herokuapp.utils.MyListener -- ❌ Error in step #9: stale element reference: stale element not found
+  (Session info: chrome=144.0.7559.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd5128e27ad5fe90422a2ff64098d60b, getElementText {id=f.BAD81E732F0E4B1C4ADF55AE27DB3A78.d.1DE97548D79F2ECDAB0B32C09AB200EB.e.18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\vitro\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65008}, goog:processID: 22372, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65008/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (dd5128e27ad5fe90422a2ff64098d60b)] -> css selector: .example h2]
+Session ID: dd5128e27ad5fe90422a2ff64098d60b
+5426 [main] ERROR com.herokuapp.utils.MyListener -- *****************************************
+5426 [main] ERROR com.herokuapp.utils.MyListener -- Screen with error --> screenshots/screen_883.png
+5788 [main] ERROR com.herokuapp.utils.MyTestWatcher -- The method !!Optional[public void com.herokuapp.tests.FormAuthTest.loginPositiveTest()]!! is FAILED
+5788 [main] ERROR com.herokuapp.utils.MyTestWatcher -- loginPositiveTest()
+5788 [main] ERROR com.herokuapp.utils.MyTestWatcher -- stale element reference: stale element not found
+  (Session info: chrome=144.0.7559.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd5128e27ad5fe90422a2ff64098d60b, getElementText {id=f.BAD81E732F0E4B1C4ADF55AE27DB3A78.d.1DE97548D79F2ECDAB0B32C09AB200EB.e.18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\vitro\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65008}, goog:processID: 22372, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65008/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (dd5128e27ad5fe90422a2ff64098d60b)] -> css selector: .example h2]
+Session ID: dd5128e27ad5fe90422a2ff64098d60b
+5788 [main] INFO  com.herokuapp.utils.MyTestWatcher --  ================================================== 

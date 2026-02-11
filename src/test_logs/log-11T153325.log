@@ -1,0 +1,17 @@
+2237 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+2253 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+5336 [main] INFO  com.herokuapp.utils.MyListener -- We opened the site https://the-internet.herokuapp.com/
+5933 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[ChromeDriver: chrome on windows (0ab36db15c9f86d7d3bd15988788586c)] -> css selector: a[href='/dropdown']]
+5933 [main] INFO  com.herokuapp.utils.MyListener -- ==================================================
+6164 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[[[ChromeDriver: chrome on windows (0ab36db15c9f86d7d3bd15988788586c)] -> id: dropdown]] -> xpath: .//option[normalize-space(.) = "Option 1"]]
+6164 [main] INFO  com.herokuapp.utils.MyListener -- ==================================================
+6246 [main] INFO  com.herokuapp.utils.MyListener --  [[[[ChromeDriver: chrome on windows (0ab36db15c9f86d7d3bd15988788586c)] -> id: dropdown]] -> tag name: option] contains Option 1
+6246 [main] INFO  com.herokuapp.utils.MyListener -- ==================================================
+6260 [main] INFO  com.herokuapp.utils.MyListener --  [[ChromeDriver: chrome on windows (0ab36db15c9f86d7d3bd15988788586c)] -> id: dropdown] contains     Please select an option
+    Option 1
+    Option 2
+  
+6260 [main] INFO  com.herokuapp.utils.MyListener -- ==================================================
+6455 [main] INFO  com.herokuapp.utils.MyTestWatcher -- The method Optional[public void com.herokuapp.tests.DropdownTests.selectOptions()] is PASSED
+6455 [main] INFO  com.herokuapp.utils.MyTestWatcher -- selectOptions()
+6455 [main] INFO  com.herokuapp.utils.MyTestWatcher -- **************************************************

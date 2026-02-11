@@ -1,0 +1,12 @@
+922  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+953  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+3965 [main] INFO  com.herokuapp.utils.MyListener -- We opened the site https://the-internet.herokuapp.com/
+4515 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[ChromeDriver: chrome on windows (24a7c71da01a4529b2eaebeb45e281c4)] -> css selector: a[href='/context_menu']]
+4515 [main] INFO  com.herokuapp.utils.MyListener -- ==================================================
+4701 [main] INFO  com.herokuapp.utils.MyListener --  [org.openqa.selenium.interactions.Sequence@32faa16c]
+4702 [main] INFO  com.herokuapp.utils.MyListener -- ==================================================
+4825 [main] INFO  com.herokuapp.utils.MyListener --  [[ChromeDriver: chrome on windows (24a7c71da01a4529b2eaebeb45e281c4)] -> css selector: .heading] contains Welcome to the-internet
+4825 [main] INFO  com.herokuapp.utils.MyListener -- ==================================================
+5005 [main] INFO  com.herokuapp.utils.MyTestWatcher -- The method Optional[public void com.herokuapp.tests.ContextMenuTest.rightClickTestOnBox()] is PASSED
+5005 [main] INFO  com.herokuapp.utils.MyTestWatcher -- rightClickTestOnBox()
+5005 [main] INFO  com.herokuapp.utils.MyTestWatcher -- **************************************************

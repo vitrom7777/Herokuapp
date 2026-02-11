@@ -1,8 +1,0 @@
-826  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-845  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
-861  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-868  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
-4660 [main] INFO  c.h.p.availableExamples.FramesPage -- [[ChromeDriver: chrome on windows (0e6bd2de4343738fdb2e63c99bfef022)] -> xpath: //frameset]
-4739 [main] ERROR com.herokuapp.utils.MyTestWatcher -- The method !!Optional[public void com.herokuapp.tests.FramesTests.framesByTests()]!! is FAILED
-4740 [main] ERROR com.herokuapp.utils.MyTestWatcher -- expected: <true> but was: <false>
-4740 [main] INFO  com.herokuapp.utils.MyTestWatcher --  ================================================== 

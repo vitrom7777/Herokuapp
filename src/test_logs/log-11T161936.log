@@ -1,0 +1,13 @@
+864  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+896  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+3789 [main] INFO  com.herokuapp.utils.MyListener -- __________________________________________________________
+3789 [main] INFO  com.herokuapp.utils.MyListener -- Step #1 | 🌐 We opened the site https://the-internet.herokuapp.com/
+4304 [main] INFO  com.herokuapp.utils.MyListener -- Step #1 | 🖱️ We clicked on: [[ChromeDriver: chrome on windows (03a6d8cf891c6ea157e7a2fdecf2f3c6)] -> css selector: a[href='/horizontal_slider']]
+4304 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+4748 [main] INFO  com.herokuapp.utils.MyListener --  [org.openqa.selenium.interactions.Sequence@9f86dc3]
+4749 [main] INFO  com.herokuapp.utils.MyListener -- ==================================================
+4776 [main] INFO  com.herokuapp.utils.MyListener -- Step #2 | 📖 Contains: [5]
+4776 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+4975 [main] INFO  com.herokuapp.utils.MyTestWatcher -- The method Optional[public void com.herokuapp.tests.SliderTests.sliderTest()] is PASSED
+4975 [main] INFO  com.herokuapp.utils.MyTestWatcher -- sliderTest()
+4975 [main] INFO  com.herokuapp.utils.MyTestWatcher -- **************************************************
