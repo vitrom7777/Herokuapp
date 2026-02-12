@@ -1,0 +1,11 @@
+com\herokuapp\tests\WindowTest.class
+com\herokuapp\tests\FramesTests.class
+com\herokuapp\tests\UploadTest.class
+com\herokuapp\tests\DragAndDropTests.class
+com\herokuapp\tests\FormAuthTest.class
+com\herokuapp\core\TestBase.class
+com\herokuapp\tests\AlertTests.class
+com\herokuapp\tests\ContextMenuTest.class
+com\herokuapp\tests\DropdownTests.class
+com\herokuapp\tests\BrokenTest.class
+com\herokuapp\tests\SliderTests.class

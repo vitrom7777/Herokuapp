@@ -5,6 +5,7 @@ import com.herokuapp.pages.HomePage;
 import com.herokuapp.pages.availableExamples.DragAndDropPage;
 import com.herokuapp.pages.availableExamples.DropdownPage;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class DragAndDropTests extends TestBase {
@@ -17,6 +18,7 @@ DragAndDropPage dragAndDropPage;
     }
 
     // v.1
+    @Tag("testMy")
     @Test
     public void dragMyTest(){
         dragAndDropPage.dragMe()

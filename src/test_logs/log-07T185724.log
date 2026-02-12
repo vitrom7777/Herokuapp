@@ -1,7 +1,0 @@
-871  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-889  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
-902  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-902  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
-4704 [main] INFO  com.herokuapp.utils.MyTestWatcher -- The method Optional[public void com.herokuapp.tests.ContextMenuTest.rightClickTestOnBox()] is PASSED
-4704 [main] INFO  com.herokuapp.utils.MyTestWatcher -- rightClickTestOnBox()
-4704 [main] INFO  com.herokuapp.utils.MyTestWatcher -- **************************************************

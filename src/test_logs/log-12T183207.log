@@ -1,0 +1,39 @@
+1224 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+1259 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+6911 [main] INFO  com.herokuapp.utils.MyListener -- __________________________________________________________
+6911 [main] INFO  com.herokuapp.utils.MyListener -- Step #1 | 🌐 We opened the site https://the-internet.herokuapp.com/
+7470 [main] INFO  com.herokuapp.utils.MyListener -- Step #1 | 🖱️ We clicked on: [[ChromeDriver: chrome on windows (88eebcd91313cb0a0b11750f3e08ba25)] -> css selector: a[href='/context_menu']]
+7471 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+7637 [main] INFO  com.herokuapp.utils.MyListener --  [org.openqa.selenium.interactions.Sequence@7d904ff1]
+7637 [main] INFO  com.herokuapp.utils.MyListener -- ==================================================
+7754 [main] INFO  com.herokuapp.utils.MyListener -- Step #2 | 📖 Contains: [Welcome to the-internet]
+7756 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+7974 [main] INFO  com.herokuapp.utils.MyTestWatcher -- The method Optional[public void com.herokuapp.tests.ContextMenuTest.rightClickTestOnBox()] is PASSED
+7974 [main] INFO  com.herokuapp.utils.MyTestWatcher -- rightClickTestOnBox()
+7974 [main] INFO  com.herokuapp.utils.MyTestWatcher -- **************************************************
+8032 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+8051 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+10312 [main] INFO  com.herokuapp.utils.MyListener -- __________________________________________________________
+10312 [main] INFO  com.herokuapp.utils.MyListener -- Step #3 | 🌐 We opened the site https://the-internet.herokuapp.com/
+10775 [main] INFO  com.herokuapp.utils.MyListener -- Step #1 | 🖱️ We clicked on: [[ChromeDriver: chrome on windows (be6d1bbf9b3e6d14b4c4f75bae206afa)] -> css selector: a[href='/drag_and_drop']]
+10776 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+11047 [main] INFO  com.herokuapp.utils.MyListener --  [org.openqa.selenium.interactions.Sequence@9b76b60]
+11047 [main] INFO  com.herokuapp.utils.MyListener -- ==================================================
+11078 [main] INFO  com.herokuapp.utils.MyListener -- Step #2 | 📖 Contains: [A]
+11078 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+11346 [main] INFO  com.herokuapp.utils.MyTestWatcher -- The method Optional[public void com.herokuapp.tests.DragAndDropTests.dragMyTest()] is PASSED
+11347 [main] INFO  com.herokuapp.utils.MyTestWatcher -- dragMyTest()
+11347 [main] INFO  com.herokuapp.utils.MyTestWatcher -- **************************************************
+11507 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+11561 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+14064 [main] INFO  com.herokuapp.utils.MyListener -- __________________________________________________________
+14064 [main] INFO  com.herokuapp.utils.MyListener -- Step #3 | 🌐 We opened the site https://the-internet.herokuapp.com/
+14614 [main] INFO  com.herokuapp.utils.MyListener -- Step #1 | 🖱️ We clicked on: [[ChromeDriver: chrome on windows (b4eaa4d41c6f4d035ab1e646585958a4)] -> css selector: a[href='/horizontal_slider']]
+14614 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+15048 [main] INFO  com.herokuapp.utils.MyListener --  [org.openqa.selenium.interactions.Sequence@7f4701b1]
+15048 [main] INFO  com.herokuapp.utils.MyListener -- ==================================================
+15081 [main] INFO  com.herokuapp.utils.MyListener -- Step #2 | 📖 Contains: [5]
+15081 [main] INFO  com.herokuapp.utils.MyListener -- ----------------------------------------------------------
+15282 [main] INFO  com.herokuapp.utils.MyTestWatcher -- The method Optional[public void com.herokuapp.tests.SliderTests.sliderTest()] is PASSED
+15282 [main] INFO  com.herokuapp.utils.MyTestWatcher -- sliderTest()
+15282 [main] INFO  com.herokuapp.utils.MyTestWatcher -- **************************************************

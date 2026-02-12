@@ -1,0 +1,15 @@
+com\herokuapp\core\BasePage.class
+com\herokuapp\pages\availableExamples\DragAndDropPage.class
+com\herokuapp\pages\availableExamples\SliderPage.class
+com\herokuapp\pages\availableExamples\DropdownPage.class
+com\herokuapp\pages\availableExamples\UploadPage.class
+com\herokuapp\utils\MyListener.class
+com\herokuapp\utils\MyTestWatcher.class
+com\herokuapp\pages\availableExamples\AlertsPage.class
+com\herokuapp\pages\availableExamples\FramesPage.class
+com\herokuapp\pages\availableExamples\LoginPage.class
+com\herokuapp\core\ApplicationManger.class
+com\herokuapp\pages\availableExamples\MultipleWindowsPage.class
+com\herokuapp\pages\HomePage.class
+com\herokuapp\pages\availableExamples\ContextMenuPage.class
+com\herokuapp\pages\availableExamples\BrokenImagesPage.class

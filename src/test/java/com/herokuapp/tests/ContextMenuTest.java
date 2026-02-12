@@ -4,6 +4,7 @@ import com.herokuapp.core.TestBase;
 import com.herokuapp.pages.HomePage;
 import com.herokuapp.pages.availableExamples.ContextMenuPage;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class ContextMenuTest extends TestBase {
@@ -22,7 +23,7 @@ public class ContextMenuTest extends TestBase {
 //    при помощи класса Keys нажать на клавишу ARROW_DOWN(или DOWN), затем на клавишу ENTER
 //    убедиться, что вы вернулись на домашнюю страницу
 
-
+@Tag("testMy")
     @Test
     public void rightClickTestOnBox() {
 
